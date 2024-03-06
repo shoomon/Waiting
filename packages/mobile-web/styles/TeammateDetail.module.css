@@ -1,0 +1,60 @@
+.container {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background-color: #fbf0d3;
+  color: #282828;
+  border-radius: 4px;
+}
+
+.form-group input:disabled {
+  background-color: #f4cd6e;
+}
+
+.teamItem {
+  align-items: center;
+  width: fit-content;
+  margin: 2px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.button {
+  background-color: #f4cd6e;
+  color: #282828;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #e5b640;
+}
+
+.button:disabled {
+  background-color: #ccc;
+}
+
+.not-available-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}

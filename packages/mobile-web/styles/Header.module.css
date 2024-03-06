@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  height: 44px;
+  padding: 10px 4px 10px;
+  background-color: #f4cd6e;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.settings {
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.settings svg {
+  width: 24px;
+  height: 24px;
+  fill: #282828;
+}

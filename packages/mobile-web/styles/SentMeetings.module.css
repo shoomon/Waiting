@@ -1,0 +1,94 @@
+.container {
+  max-width: 430px;
+  overflow: hidden;
+  margin: 12px;
+}
+
+.popupContainer {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background-color: #fbf0d3;
+  color: #282828;
+  border-radius: 4px;
+}
+
+.meetingItem {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.meetingInfo {
+  display: inline-block;
+}
+
+.recipientName {
+  font-weight: bolder;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.createdAt,
+.content,
+.myWaitingNumber,
+.status {
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.buttons {
+  display: block;
+  float: right;
+}
+
+.deleteButton,
+.editButton {
+  margin-left: 2px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.deleteButton {
+  background-color: #f44336;
+  color: white;
+}
+
+.deleteButton:hover {
+  background-color: #d32f2f;
+}
+
+.editButton {
+  background-color: #f4cd6e;
+  color: #282828;
+}
+
+.editButton:hover {
+  background-color: #e5b640;
+}
+
+.completedButton {
+  padding: 5px 10px;
+  background-color: #555;
+  color: white;
+  border-radius: 4px;
+}

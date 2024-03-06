@@ -1,0 +1,53 @@
+.menuContainer {
+  position: relative;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+}
+
+.menuContent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50vw;
+  max-width: 300px;
+  background: #fff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 10;
+}
+
+.menuItem {
+  width: max-content;
+  margin-left: 10px;
+  border-bottom: 1px solid rgba(28, 28, 28, 0.1);
+  margin-top: 24px;
+}
+
+.closeButton,
+.menuButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #282828;
+}
+
+.menuButton svg {
+  width: 24px;
+  height: 24px;
+  fill: #282828;
+}
+
+.closeButton svg {
+  width: 18px;
+  height: 18px;
+  fill: #282828;
+}
